@@ -1,10 +1,13 @@
 "use strict"
 
-const formDrop = document.querySelector('.menudropdown');
-const bookmark = document.querySelector('.data-actions__add');
-const dataListItem = document.querySelector ('.item__url')
+const formDrop = document.querySelector('.js-menudropdown');
+const bookmark = document.querySelector('.js-data-actions__add');
 
-dataListItem.innerHTML += "https://github.com/Mariamafalda2021/Modulo-2-ejercicio-bookmarks"
+const bmk_1_url;
+
+let html;
+
+
 
 
 formDrop.classList.remove('collapsed');
